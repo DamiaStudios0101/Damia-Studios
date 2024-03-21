@@ -1,0 +1,71 @@
+body {
+    background-image: url('Web Background.jpg');
+    background-size: cover;
+
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Icon {
+    margin-top: 150px;
+    width: 520px;
+    height: 330px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #a79265;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+div {
+    height: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #baa7a76b;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.hover1,
+.hover2,
+.hover3,
+.hover4,
+.hover5,
+.hover6,
+.hover7,
+.hover8,
+.hover9,
+.hover10 {
+    transition: 1s ease;
+}
+
+.hover1:hover,
+.hover2:hover,
+.hover3:hover,
+.hover4:hover,
+.hover5:hover,
+.hover6:hover,
+.hover7:hover,
+.hover8:hover,
+.hover9:hover,
+.hover10:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
